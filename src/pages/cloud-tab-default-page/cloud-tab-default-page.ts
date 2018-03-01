@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-cloud-tab-default-page',
+  templateUrl: 'cloud-tab-default-page.html'
 })
-export class HomePage {
+export class CloudTabDefaultPagePage {
 
   constructor(public navCtrl: NavController) {
-
   }
-
+  
 }
